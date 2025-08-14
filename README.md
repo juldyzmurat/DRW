@@ -1,12 +1,12 @@
 # DRW Challenge – Crypto Market Prediction. AE + CNN Pipeline
 
-The originial challenge: https://www.kaggle.com/competitions/drw-crypto-market-prediction
 This repository contains an end-to-end machine learning pipeline for processing train/test data, encoding it using an Autoencoder (AE), and classifying it with a Convolutional Neural Network (CNN). The included diagram illustrates the complete workflow.
-Test-set metrics are not reported because the challenge uses a submission-based evaluation that does not expose traditional metrics. My focus was implementing autoencoders and building batch-processing and parallel-computing pipelines.
 ---
 
 ## 📌 Project Overview
 
+The originial challenge: https://www.kaggle.com/competitions/drw-crypto-market-prediction
+Test-set metrics are not reported because the challenge uses a submission-based evaluation that does not expose traditional metrics. My focus was implementing autoencoders and building batch-processing and parallel-computing pipelines.
 The pipeline follows these major steps:
 
 1. **Preprocessing**
