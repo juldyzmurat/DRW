@@ -14,7 +14,7 @@ The pipeline follows these major steps:
 
 2. **Data Splitting**
    - The training set is split into:
-     - **20% validation subset** for training the VAE.
+     - **20% validation subset** for training the AE.
      - Multiple batches for efficient processing.
 
 3. **Autoencoder (AE)**
