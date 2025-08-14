@@ -5,7 +5,7 @@ This repository contains an end-to-end machine learning pipeline for processing 
 
 ## 📌 Project Overview
 
-The originial challenge: https://www.kaggle.com/competitions/drw-crypto-market-prediction \n
+The originial challenge: https://www.kaggle.com/competitions/drw-crypto-market-prediction  
 Test-set metrics are not reported because the challenge uses a submission-based evaluation that does not expose traditional metrics. My focus was implementing autoencoders and building batch-processing and parallel-computing pipelines.
 The pipeline follows these major steps:
 
@@ -40,16 +40,16 @@ The pipeline follows these major steps:
 ---
 
 ## 📂 Repository Structure
-├── eda.py # Exploratory Data Analysis
-├── process_chunk.py # Chunk-based data processing
-├── run_all_chunks.sh # Batch processing script
-├── autoencoder_model-2.h5 # Trained VAE model 
-├── cnn_model.joblib # Trained CNN model
-├── sample_submission.csv # Example submission format
-├── sub_predictions.csv # Model prediction output
-├── predicted_chunks/ # Encoded batch outputs (large files, not tracked in git)
-└── drw_challenge.png # Workflow diagram
+├── eda.py # Exploratory Data Analysis  
+├── process_chunk.py # Chunk-based data processing  
+├── run_all_chunks.sh # Batch processing script  
+├── autoencoder_model-2.h5 # Trained VAE model  
+├── cnn_model.joblib # Trained CNN model  
+├── sample_submission.csv # Example submission format  
+├── sub_predictions.csv # Model prediction output  
+├── predicted_chunks/ # Encoded batch outputs (large files, not tracked in git)  
+└── drw_challenge.png # Workflow diagram  
 
-Created by Zhuldyz Ualikhankyzy \n
+Created by Zhuldyz Ualikhankyzy  
 For any questions or suggestions, please open an issue or pull request.
 
