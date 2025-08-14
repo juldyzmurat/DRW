@@ -5,7 +5,7 @@ This repository contains an end-to-end machine learning pipeline for processing 
 
 ## 📌 Project Overview
 
-The originial challenge: https://www.kaggle.com/competitions/drw-crypto-market-prediction
+The originial challenge: https://www.kaggle.com/competitions/drw-crypto-market-prediction \n
 Test-set metrics are not reported because the challenge uses a submission-based evaluation that does not expose traditional metrics. My focus was implementing autoencoders and building batch-processing and parallel-computing pipelines.
 The pipeline follows these major steps:
 
@@ -50,6 +50,6 @@ The pipeline follows these major steps:
 ├── predicted_chunks/ # Encoded batch outputs (large files, not tracked in git)
 └── drw_challenge.png # Workflow diagram
 
-Created by Zhuldyz Ualikhankyzy
+Created by Zhuldyz Ualikhankyzy \n
 For any questions or suggestions, please open an issue or pull request.
 
